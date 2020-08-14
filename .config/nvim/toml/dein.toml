@@ -1,0 +1,115 @@
+[[plugins]] # toml syntax
+repo = 'cespare/vim-toml'
+on_ft = 'toml'
+
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+# Lighline
+repo = 'itchyny/lightline.vim'
+
+[[plugins]]
+# onedark
+repo = 'joshdick/onedark.vim'
+
+[[plugins]]
+repo = 'freeo/vim-kalisi'
+
+[[plugins]]
+repo = 'reedes/vim-colors-pencil'
+
+[[plugins]]
+repo = 'tomasr/molokai'
+
+[[plugins]]
+repo = 'arcticicestudio/nord-vim'
+hook_add = '''
+  set background=dark
+  au MyAutoCmd VimEnter * nested colorscheme nord
+'''
+
+[[plugins]]
+repo = 'w0ng/vim-hybrid'
+
+[[plugins]]
+# better-whitespace
+repo = 'ntpeters/vim-better-whitespace'
+
+[[plugins]]
+repo = 'Yggdroot/indentLine'
+
+[[plugins]]
+repo = 'scrooloose/nerdtree'
+
+[[plugins]]
+repo = 'majutsushi/tagbar'
+
+[[plugins]]
+repo = 'junegunn/fzf'
+build = './install --all'
+
+[[plugins]]
+repo = 'junegunn/fzf.vim'
+
+[[plugins]]
+repo = 'airblade/vim-rooter'
+
+[[plugins]]
+repo = 'tpope/vim-fugitive'
+
+[[plugins]]
+repo = 'airblade/vim-gitgutter'
+
+[[plugins]]
+repo = 'xuyuanp/nerdtree-git-plugin'
+on = 'NERDTreeToggle'
+
+[[plugins]]
+repo = 'sheerun/vim-polyglot'
+
+[[plugins]]
+repo = 'dense-analysis/ale'
+
+[[plugins]]
+repo = 'maximbaz/lightline-ale'
+
+[[plugins]]
+repo  = 'phpactor/phpactor'
+on_ft = ['php']
+build = 'composer install'
+
+[[plugins]]
+repo = 'SirVer/ultisnips'
+
+[[plugins]]
+repo = 'honza/vim-snippets'
+
+[[plugins]]
+repo = 'neoclide/coc.nvim'
+build = './install.sh nightly'
+
+[[plugins]]
+repo = 'kassio/neoterm'
+
+[[plugins]]
+repo = 'tpope/vim-commentary'
+
+[[plugins]]
+repo = 'mbbill/undotree'
+
+[[plugins]]
+repo = 'easymotion/vim-easymotion'
+
+[[plugins]]
+repo = 'tpope/vim-surround'
+
+[[pluginsn]]
+repo = 'tpope/vim-repeat'
+
+[[plugins]]
+repo = 'jiangmiao/auto-pairs'
+
+[[plugins]]
+repo = 'junegunn/vim-emoji'
+

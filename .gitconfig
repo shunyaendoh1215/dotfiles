@@ -1,0 +1,31 @@
+[user]
+	name = shunyaendoh1215
+	email = shunyaendoh.bz@gmail.com
+[core]
+	excludesfile = /Users/shunya/.gitignore_global
+	editor = nvim
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[alias]
+	co = commit
+	st = status
+	df = diff
+	me = merge
+	ra = remote add
+[commit]
+  template = ~/.gitmessage
+[ghq]
+  root = /Users/shunya/code/golang/src
+[pager]
+  log = diff-highlight | less
+  show = diff-highlight | less
+  diff = diff-highlight | less

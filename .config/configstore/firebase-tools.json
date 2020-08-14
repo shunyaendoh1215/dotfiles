@@ -1,0 +1,49 @@
+{
+	"analytics-uuid": "a904a61e-b6ac-48aa-bb6b-3e50f1436da3",
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1596346173215
+	},
+	"motd.fetched": 1583137001021,
+	"usage": true,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "103275460631972888949",
+		"email": "shunyaendoh.bz@gmail.com",
+		"email_verified": true,
+		"at_hash": "FknYpMySVZb34Lj5vpC1dw",
+		"iat": 1582881218,
+		"exp": 1582884818
+	},
+	"tokens": {
+		"expires_at": 1596352273719,
+		"refresh_token": "1//0e47ewsH_AI3-CgYIARAAGA4SNwF-L9Ir61jWdPTc8vlkn4gdTvBcp8VTQHzwe7tmMEqO776-jUD4yvp-F4EpIxwVq14VGk4Qf0o",
+		"scopes": [
+			"email",
+			"https://www.googleapis.com/auth/cloud-platform",
+			"https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+			"https://www.googleapis.com/auth/firebase",
+			"openid"
+		],
+		"access_token": "ya29.a0AfH6SMCh1tQ4oC_piSG3jBXCFD6G6YA1QEZUfYKbaoTFc4mePB6oG2kQKw-CATmMnwdVEz24-D7O0TkBgyp9ZGVg9yMUI8iijLCbSvHKz3aWcCaLxrBGJFDb3eWJl7JSLwPMKLJnjb98v8SDy5eUMnZzTIfi4ZLtgJdc8yVwmBec4g",
+		"expires_in": 3599,
+		"scope": "https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/userinfo.email openid https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/cloud-platform",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImYwNTQxNWIxM2FjYjk1OTBmNzBkZjg2Mjc2NWM2NTVmNWE3YTAxOWUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTAzMjc1NDYwNjMxOTcyODg4OTQ5IiwiZW1haWwiOiJzaHVueWFlbmRvaC5iekBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6InZOQ1V6VXMzaHJ0QWRpSEtaRjdDX0EiLCJpYXQiOjE1OTYzNDg2NzQsImV4cCI6MTU5NjM1MjI3NH0.clwe0MvnXzWJBTjVuIROeJFQcjDM4folTJ4-XDmysdA_cNRz1zH9O7McXVHICN4l5jeA87bfeRBkSfpu2GWVYhkqVDfmW4ntzZFFTQVAa6-D0A_ByQVj2IRmdl97XfYW8TB_no_TAuY8rHbfZNKXVaDizWOrvG7xsGQVBfxZqpTTxqRMc9ghV9duO7l1j00BhIt-0b9vt6mP8eM-FEXwECddvL3mDSUrGUbZpEimSuNnhpxFwtVYrmGMYtMhOTrh4By7f9og6nPfDoxfgxH-Je_ITYceMqQa-P3Wa_6w7gqUx3dcKj_ut61Jj7IaWuhNBrvII3O1N09S4LjrkwKF1Q"
+	},
+	"activeProjects": {
+		"/Users/shunya/flutter/flutterProject/model/remote_config_functions": "flutter-remote-config",
+		"/Users/shunya/flutter/flutterProject/dev/functions-dev": "cultya-develop",
+		"/Users/shunya/flutter/flutterProject/dev/functions/Cultya-Firebase-Functions": "cultya-develop",
+		"/Users/shunya/code/golang/src/github.com/AtGame-Inc/Cultya-Firebase-Functions": "develop"
+	},
+	"lastError": 1596350756861
+}
