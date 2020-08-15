@@ -37,4 +37,4 @@ export PATH=$PATH:$GOPATH/bin
 # geth
 export PATH="$HOME/geth:$PATH"
 
-echo 'initialized ~/.zsh/lang_setting.zsh!'
+echo '6       ____/\\\/______\////////\\\_\/\\\___\/\\\_\/\\\_______\//\\\________'

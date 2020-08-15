@@ -128,4 +128,4 @@ function peco_select_branch_all() {
     fzf --ansi --reverse --height 20% --border
 }
 
-echo 'initialized ~/.zsh/functions.zsh!'
+echo '5      ______/\\\/____\/\\\\\\\\\\_\/\\\/////\\\_\/\\\___\///_/\\\_________'
