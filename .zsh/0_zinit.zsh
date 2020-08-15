@@ -1,4 +1,4 @@
-### Added by Zinit's installer
+# {{{ by Zinit's installer
 if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
     print -P "%F{33}▓▒░ %F{220}Installing %F{33}DHARMA%F{220} Initiative Plugin Manager (%F{33}zdharma/zinit%F{220})…%f"
     command mkdir -p "$HOME/.zinit" && command chmod g-rwX "$HOME/.zinit"
@@ -14,27 +14,21 @@ autoload -Uz cdr
 autoload -Uz chpwd_recent_dirs
 
 (( ${+_comps} )) && _comps[zinit]=_zinit
+# }}}
+export ZSH_PLUGINS_ALIAS_TIPS_TEXT='alias-tips: '
 
-# Load a few important annexes, without Turbo
-# (this is currently required for annexes)
+# plugins {{{
 zinit light-mode for \
     zinit-zsh/z-a-rust \
     zinit-zsh/z-a-as-monitor \
     zinit-zsh/z-a-patch-dl \
     zinit-zsh/z-a-bin-gem-node
 
-### End of Zinit's installer chunk
-
-
 # OS間のクリップボードの差異を吸収するコマンドを定義する oh-my-zsh のスニペットをロードします。
 zplugin snippet 'OMZ::lib/clipboard.zsh'
-
 # zsh の補完を使いやすく設定する oh-my-zsh のスニペットをロードします。
 zplugin snippet 'OMZ::lib/completion.zsh'
 zplugin snippet 'OMZ::lib/compfix.zsh'
-
-export ZSH_PLUGINS_ALIAS_TIPS_TEXT='alias-tips: '
-
 # fzf で絵文字を検索&入力ためのプラグインです。
 zplugin light 'b4b4r07/emoji-cli'
 # 利用可能なエイリアスを使わずにコマンドを実行した際に通知するプラグインです。
@@ -49,7 +43,6 @@ zplugin light 'sei40kr/zsh-tmux-rename'
 # ls よりも使いやすく見やすいディレクトリの一覧表示のコマンドを定義するプラグインです。
 zplugin ice pick'k.sh'
 zplugin light 'supercrabtree/k'
-
 # 作業ディレクトリに .env ファイルがあった場合に自動的にロードしてくれます。
 zplugin snippet 'OMZ::plugins/dotenv/dotenv.plugin.zsh'
 # コマンド入力待ち状態から control-Z で suspend したプロセスに復帰するキーバインドを設定するプラグインです。
@@ -96,4 +89,4 @@ zplugin light 'denysdovhan/spaceship-zsh-theme'
 compinit
 zplugin cdreplay -q
 
-echo 'initialized ~/.zinit.zsh!'
+echo '0 _____________________________/\\\___________________________________'

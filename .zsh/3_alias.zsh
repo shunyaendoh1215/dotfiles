@@ -60,4 +60,4 @@ alias simuvid='xcrun simctl io booted recordVideo $(date "+%Y_%m_%d").mov'
 alias ghl='cd $(ghq root)/$(ghq list | peco)'
 alias ghr='hub browse $(ghq list | peco | cut -d "/" -f 2,3)'
 
-echo 'initialized ~/.zsh/alias.zsh!'
+echo '3    __/\\\\\\\\\\\__/\\\\\\\\\\_\/\\\__________/\\/\\\\\\\____/\\\\\\\\_'

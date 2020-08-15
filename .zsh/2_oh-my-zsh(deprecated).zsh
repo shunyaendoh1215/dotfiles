@@ -20,4 +20,4 @@
 #   autoload -U promptinit; promptinit
 #   prompt pure
 
-# echo 'initialized ~/.zsh/oh-my-zsh.zsh!'
+echo '2   ____________________________\/\\\___________________________________'
