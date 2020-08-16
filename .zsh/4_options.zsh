@@ -28,9 +28,6 @@ zle -N peco_select_branch_except_current
 zle -N peco_select_local_branch_except_current
 zle -N peco_select_branch_all
 
-fpath=(~/.zsh/completion $fpath)
-autoload -U compinit && compinit -u
-zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 setopt auto_list
 setopt auto_menu
 zstyle ':completion:*:default' menu select=1
