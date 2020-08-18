@@ -3,10 +3,15 @@
 bindkey -v
 bindkey -M vicmd 'gg' beginning-of-line
 bindkey -M vicmd 'G'  end-of-line
-bindkey "^r" peco_select_history
+
+# peco
+bindkey "^r" peco_select_history # ctrl-rでpeco-history
 bindkey "^]" peco_select_src
 bindkey "^v" peco_select_file_within_project
 bindkey "^b" peco_select_file_below_pwd
+bindkey "^e" peco_change_directory
+
+
 # コマンド履歴検索
 bindkey "^P" history-beginning-search-backward-end
 bindkey "^N" history-beginning-search-forward-end
@@ -27,6 +32,7 @@ zle -N peco_select_file_within_project
 zle -N peco_select_branch_except_current
 zle -N peco_select_local_branch_except_current
 zle -N peco_select_branch_all
+zle -N peco_change_directory
 
 setopt auto_list
 setopt auto_menu

@@ -48,6 +48,7 @@ alias v='f -e nvim'
 alias v='peco_edit_file'
 alias c='peco_change_directory'
 alias b='peco_select_file_below_pwd'
+
 alias f='fasd -f'        # file
 alias sd='fasd -sid'     # interactive directory selection
 alias sf='fasd -sif'     # interactive file selection

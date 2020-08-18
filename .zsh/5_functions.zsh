@@ -2,12 +2,12 @@
 # TODO 撤廃する
 function git.tomain() {
   git config --global user.name "shunyaendoh"
-  git config --global user.email "shunyaendoh.bz@gmail.com"
+  git config --global user.email "shunya.endoh@gmail.com"
 }
 
 function git.tosub() {
   git config --global user.name "shunyaendoh1215"
-  git config --global user.email "shunyaendoh.bz@gmail.com"
+  git config --global user.email "shunyaendoh.1215@gmail.com"
 }
 
 function zle-line-init zle-keymap-select {
@@ -24,7 +24,7 @@ function peco_select_history() {
   fi
   BUFFER=$(fc -l -n 1 | eval $tac | peco --query "$LBUFFER")
   CURSOR=$#BUFFER
-  #zle clear-screen
+  zle clear-screen
 }
 function peco_select_src () {
   local selected_dir=$(ghq list -p | peco --query "$LBUFFER")
@@ -32,11 +32,13 @@ function peco_select_src () {
     BUFFER="cd ${selected_dir}"
     zle accept-line
   fi
-  #zle clear-screen
+  zle clear-screen
 }
+
 function peco_change_directory() {
   cd $(fasd -d | peco | awk '{print $2}')
 }
+
 #TODO リファクタする
 #git ls-tree -r --name-only --full-tree HEADをつかう
 #fzfのpreview機能使う
