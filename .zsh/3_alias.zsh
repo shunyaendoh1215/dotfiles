@@ -50,6 +50,8 @@
   alias ga='git add'
   alias gA='git add --all'
   alias gc='git commit'
+  alias gpul='git pull'
+  alias gpus='git push'
 
 # Branch
   alias gb='git branch'
