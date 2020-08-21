@@ -16,11 +16,6 @@
 	process = git-lfs filter-process
 	required = true
 [alias]
-	co = commit
-	st = status
-	df = diff
-	me = merge
-	ra = remote add
 [commit]
   template = ~/.gitmessage
 [ghq]
