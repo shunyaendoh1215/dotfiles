@@ -5,8 +5,8 @@ cd ~/dotfiles
 THIS_DIR=$(cd $(dirname $0); pwd)
 
 cd $THIS_DIR
-git submodule init
-git submodule update
+# git submodule init
+# git submodule update
 
 echo "start setup..."
 for f in .??*; do

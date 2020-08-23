@@ -130,4 +130,10 @@ function peco_select_branch_all() {
     fzf --ansi --reverse --height 20% --border
 }
 
+function precmd() {
+  if [ ! -z $TMUX ]; then
+    tmux refresh-client -S
+  fi
+}
+
 echo '5      ______/\\\/____\/\\\\\\\\\\_\/\\\/////\\\_\/\\\___\///_/\\\_________'
