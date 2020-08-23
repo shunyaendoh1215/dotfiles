@@ -1,14 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
 # bash
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -25,4 +14,6 @@ fi
 
 echo '============================================================================='
 
-
+# if (which zprof > /dev/null) ;then
+#   zprof | less
+# fi

@@ -5,7 +5,7 @@ bindkey -M vicmd 'gg' beginning-of-line
 bindkey -M vicmd 'G'  end-of-line
 
 # peco
-bindkey "^r" peco_select_history # ctrl-rでpeco-history
+bindkey "^h" peco_select_history # ctrl-hでpeco-history
 bindkey "^]" peco_select_src
 bindkey "^v" peco_select_file_within_project
 bindkey "^b" peco_select_file_below_pwd

@@ -1,0 +1,178 @@
+# Other Homebrew packages
+brew aom
+brew apr
+brew apr-util
+brew argon2
+brew aspell
+brew autoconf
+brew awscli
+brew brew-file
+brew brotli
+brew c-ares
+brew cairo
+brew cfitsio
+brew colordiff
+brew composer
+brew curl-openssl
+brew dart
+brew docker
+brew ffmpeg
+brew fftw
+brew flac
+brew fontconfig
+brew fontforge
+brew freetds
+brew freetype
+brew frei0r
+brew fribidi
+brew gcc
+brew gdbm
+brew gdk-pixbuf
+brew gettext
+brew giflib
+brew git
+brew glib
+brew gmp
+brew gnutls
+brew go
+brew graphite2
+brew harfbuzz
+brew hdf5
+brew hwloc
+brew icu4c
+brew ilmbase
+brew imagemagick
+brew isl
+brew jansson
+brew jemalloc
+brew jpeg
+brew jq
+brew lame
+brew leptonica
+brew libass
+brew libbluray
+brew libcroco
+brew libde265
+brew libev
+brew libevent
+brew libexif
+brew libffi
+brew libgsf
+brew libheif
+brew libidn
+brew libidn2
+brew libmatio
+brew libmetalink
+brew libmpc
+brew libogg
+brew libomp
+brew libpng
+brew libpq
+brew libpsl
+brew librsvg
+brew libsamplerate
+brew libsndfile
+brew libsodium
+brew libsoxr
+brew libspiro
+brew libssh2
+brew libtasn1
+brew libtiff
+brew libtool
+brew libuninameslist
+brew libunistring
+brew libvidstab
+brew libvorbis
+brew libvpx
+brew libxml2
+brew libyaml
+brew libzip
+brew little-cms2
+brew lua
+brew lzo
+brew mas
+brew mcrypt
+brew mhash
+brew mozjpeg
+brew mpfr
+brew mysql@5.7
+brew ncurses
+brew nettle
+brew nghttp2
+brew nodebrew
+brew nspr
+brew nss
+brew oniguruma
+brew open-mpi
+brew opencore-amr
+brew openexr
+brew openjpeg
+brew openldap
+brew openslide
+brew openssl@1.1
+brew opus
+brew orc
+brew p11-kit
+brew pango
+brew pcre
+brew pcre2
+brew perl
+brew php
+brew php@7.1
+brew php@7.2
+brew pixman
+brew pkg-config
+brew poppler
+brew pyenv
+brew python
+brew qt
+brew rbenv
+brew rbenv-gemset
+brew readline
+brew redis
+brew ricty
+brew rtmpdump
+brew rubberband
+brew ruby
+brew ruby-build
+brew sdl2
+brew shared-mime-info
+brew snappy
+brew speex
+brew sqlite
+brew szip
+brew tesseract
+brew theora
+brew tidy-html5
+brew tig
+brew tree
+brew unbound
+brew unixodbc
+brew vim
+brew webp
+brew x264
+brew x265
+brew xvid
+brew xz
+brew zsh
+
+# Other Cask applications
+cask markright
+
+# App Store applications
+appstore 1091189122 Bear (1.7.6)
+appstore 768053424 Gapplin (1.6.2)
+appstore 682658836 GarageBand (10.3.3)
+appstore 408981434 iMovie (10.1.13)
+appstore 409183694 Keynote (9.2.1)
+appstore 405399194 Kindle (1.26.1)
+appstore 634148309 Logic Pro X (10.4.7)
+appstore 441258766 Magnet (2.4.5)
+appstore 409203825 Numbers (6.2.1)
+appstore 409201541 Pages (8.2.1)
+appstore 929507092 PhotoScape X (3.0.3)
+appstore 1007457278 Realm Browser (3.0.1)
+appstore 425955336 Skitch (2.8.4)
+appstore 1176895641 Spark (2.3.14)
+appstore 425424353 The Unarchiver (4.1.0)
+appstore 497799835 Xcode (11.3)

@@ -1,6 +1,7 @@
 # Relogin Shell {{{
   alias relogin='exec $SHELL -l && source ~/.zshrc'
   alias sz='source ~/.zshrc'
+  alias tc='tmux source ~/.tmux.conf'
 # }}}
 
 # Open Visual Device {{{
@@ -71,6 +72,7 @@
 # Showing Data
   alias gg='git grep'
   alias gl='git log --graph --decorate --oneline'
+  alias gt="git log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(red)%h%C(r) —— %C(bold blue)%an%C(r): %C(white)%s%C(r) %C(dim white) %C(bold green)(%ar)%C(r) %C(bold yellow)%d%C(r)' --all"
   alias gs='git status'
 
 # Rebase
