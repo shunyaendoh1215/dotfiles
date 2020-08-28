@@ -1,3 +1,5 @@
+# TODO(shunya): optionに移す
+
 # fasd
 eval "$(fasd --init auto)"
 
