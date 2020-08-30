@@ -56,7 +56,7 @@
 
 # Branch
   alias gb='git branch'
-  alias gsw='git switch' # gswc - create
+  alias gsw='git switch'
   alias gchb='git checkout -b'
   # Change Branch W/ Peco
   alias gch='peco_select_branch_except_current | xargs -t git checkout'
@@ -67,8 +67,8 @@
   # Pull Branch W/ Peco
   alias gpulo='peco_select_branch_all | xargs -t git pull origin'
   # Merge Branch W/ Peco
-  alias gme='peco_select_branch_except_current  | xargs -t git merge --no-ff'
-  alias gmesq='peco_select_branch_except_current  | xargs -t git merge --squash --no-ff'
+  alias gme='peco_select_branch_except_current  | xargs -t git merge --no-ff --edit'
+  alias gmesq='peco_select_branch_except_current  | xargs -t git merge --squash'
   alias gmeabo='git merge --abort'
 
 # Showing Data
