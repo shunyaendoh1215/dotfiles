@@ -56,7 +56,7 @@
 
 # Branch
   alias gb='git branch'
-  alias gsw='git switch'
+  alias gsw='git switch' # gswc - create
   alias gchb='git checkout -b'
   # Change Branch W/ Peco
   alias gch='peco_select_branch_except_current | xargs -t git checkout'
