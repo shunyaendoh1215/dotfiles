@@ -63,7 +63,9 @@
   # Delete Branch W/ Peco
   alias gbd='peco_select_local_branch_except_current | xargs -t git branch -D'
   # Push Branch W/ Peco
-  alias gpo='peco_select_branch_all | xargs -t git push origin'
+  alias gpuso='peco_select_branch_all | xargs -t git push origin'
+  # Pull Branch W/ Peco
+  alias gpulo='peco_select_branch_all | xargs -t git pull origin'
   # Merge Branch W/ Peco
   alias gme='peco_select_branch_except_current  | xargs -t git merge --no-ff'
   alias gmesq='peco_select_branch_except_current  | xargs -t git merge --squash --no-ff'
