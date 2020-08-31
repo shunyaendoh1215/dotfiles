@@ -106,4 +106,3 @@
   alias zz='fasd_cd -d -i' # cd with interactive selection
 # }}}
 
-echo '3    __/\\\\\\\\\\\__/\\\\\\\\\\_\/\\\__________/\\/\\\\\\\____/\\\\\\\\_'

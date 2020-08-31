@@ -90,5 +90,3 @@ fpath=(~/.zsh/completion $fpath)
 autoload -U compinit && compinit -u
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 zinit cdreplay -q
-
-echo '0 _____________________________/\\\___________________________________'
