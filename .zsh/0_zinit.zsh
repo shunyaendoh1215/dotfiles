@@ -15,6 +15,7 @@ autoload -Uz chpwd_recent_dirs
 
 (( ${+_comps} )) && _comps[zinit]=_zinit
 # }}}
+
 export ZSH_PLUGINS_ALIAS_TIPS_TEXT='alias-tips: '
 
 # plugins {{{

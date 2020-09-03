@@ -12,7 +12,7 @@ if [[ ! -n $TMUX && $- == *l* ]]; then
   elif [[ -n "$ID" ]]; then
     tmux attach-session -t "$ID"
   else
-    :  # Start terminal normally
+    : echo 'Start terminal normally'
   fi
 fi
 
