@@ -79,11 +79,20 @@
 
 # Rebase
   alias gr='git rebase'
+  # edit commit history
   alias gr1='git rebase -i HEAD~1'
   alias gr2='git rebase -i HEAD~2'
   alias gr3='git rebase -i HEAD~3'
   alias gr4='git rebase -i HEAD~4'
   alias gr5='git rebase -i HEAD~5'
+# }}}
+
+# Restore{{{
+  alias gre='git restore'
+# }}}
+
+# Stash {{{
+  alias gst='git stash'
 # }}}
 
 # Peco & Ghq{{{
