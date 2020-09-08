@@ -1,4 +1,4 @@
-# Zinit's installer {{{
+# Zplugins's installer {{{
 if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
     print -P "%F{33}▓▒░ %F{220}Installing %F{33}DHARMA%F{220} Initiative Plugin Manager (%F{33}zdharma/zinit%F{220})…%f"
     command mkdir -p "$HOME/.zinit" && command chmod g-rwX "$HOME/.zinit"
@@ -19,7 +19,7 @@ autoload -Uz chpwd_recent_dirs
 
 export ZSH_PLUGINS_ALIAS_TIPS_TEXT='alias-tips: '
 
-# plugins {{{
+# plugins: genaral load {{{
 zinit light-mode for \
     zinit-zsh/z-a-rust \
     zinit-zsh/z-a-as-monitor \
@@ -61,12 +61,12 @@ zinit snippet 'OMZ::plugins/zsh_reload/zsh_reload.plugin.zsh'
 # }}}
 
 
-# zinit: Commands {{{
+# zplugins: commands {{{
 # Go で書かれたツール群を並列ダウンロード&ビルド&インストールしてくれます。
 zinit ice from'gh-r' as'command' mv'gotcha_* -> gotcha'
 zinit light 'b4b4r07/gotcha'
 
-# zinit: Completions {{{
+# zplugins: completions {{{
 # プラグインの中に含まれているコマンド補完のみを zinit で管理します。
 # 想定された zinit の使い方ではないかもしれません。
 zinit ice pick''
@@ -75,7 +75,7 @@ zinit ice pick''
 zinit light 'zsh-users/zsh-completions'
 # }}}
 
-# zinit: Plugins loaded after compinit {{{
+# zplugins: plugins loaded after compinit {{{
 # コマンドをハイライトするプラグインを遅延ロードします。
 zinit ice wait'1' atload'_zsh_highlight'
 zinit light 'zdharma/fast-syntax-highlighting'
