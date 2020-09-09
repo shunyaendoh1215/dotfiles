@@ -85,15 +85,16 @@
   alias gr3='git rebase -i HEAD~3'
   alias gr4='git rebase -i HEAD~4'
   alias gr5='git rebase -i HEAD~5'
-# }}}
 
-# Restore{{{
+# Restore
   alias gre='git restore'
-# }}}
 
-# Stash {{{
+# Stash
   alias gst='git stash'
-# }}}
+
+# On Error
+  alias grmi='rm -rf .git/index.lock .git/COMMIT_EDITMSG'
+# /Git Alias }}}
 
 # Peco & Ghq{{{
   alias vv='peco_edit_file'
