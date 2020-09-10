@@ -1,3 +1,4 @@
+# TODO(shunya): remove here
 # fasd
 eval "$(fasd --init auto)"
 
