@@ -1,3 +1,4 @@
+# TODO(shunya): 機能しているか確認
 if [[ ! -n $TMUX && $- == *l* ]]; then
   # get the IDs
   ID="`tmux list-sessions`"
