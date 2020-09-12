@@ -1,5 +1,5 @@
 # change git user config
-# TODO 撤廃する
+# TODO コメントのこす
 function git.tomain() {
   git config --global user.name "shunyaendoh"
   git config --global user.email "shunya.endoh@gmail.com"
