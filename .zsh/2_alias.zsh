@@ -38,6 +38,7 @@
   alias la='exa -a'
   alias ls='exa'
   alias rm='trash'
+  alias Rm='rm -rf'
 # }}}
 
 # Git Alias {{{
