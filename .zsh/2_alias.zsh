@@ -78,6 +78,12 @@
   alias gt="git log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(red)%h%C(r) —— %C(bold blue)%an%C(r): %C(white)%s%C(r) %C(dim white) %C(bold green)(%ar)%C(r) %C(bold yellow)%d%C(r)' --all"
   alias gs='git status'
 
+# Remote
+  alias grao='git remote add orgin'
+  alias gra='git remote add'
+  alias grro='git remote remove origin'
+  alias grr='git remote remove'
+
 # Rebase
   alias gr='git rebase'
   # edit commit history
