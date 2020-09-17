@@ -46,7 +46,7 @@ repo = 'ntpeters/vim-better-whitespace'
 repo = 'Yggdroot/indentLine'
 
 [[plugins]]
-repo = 'scrooloose/nerdtree'
+repo = 'preservim/nerdtree'
 
 [[plugins]]
 repo = 'majutsushi/tagbar'
