@@ -1,6 +1,9 @@
 # bash
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# neovim
+export XDG_CONFIG_HOME="$HOME/.config"
+
 # divide zsh config file
 export ZSHHOME="${HOME}/.zsh"
 if [ -d $ZSHHOME -a -r $ZSHHOME -a -x $ZSHHOME ]; then
