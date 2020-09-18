@@ -79,7 +79,7 @@
   alias gs='git status'
 
 # Remote
-  alias grao='git remote add orgin'
+  alias grao='git remote add origin'
   alias gra='git remote add'
   alias grro='git remote remove origin'
   alias grr='git remote remove'
