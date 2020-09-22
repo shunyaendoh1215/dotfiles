@@ -21,6 +21,13 @@
   alias markright="open -a /Applications/MarkRight.app"
 # }}}
 
+# Google Chrome {{{
+alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
+alias chrome-canary="/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary"
+alias chromium="/Applications/Chromium.app/Contents/MacOS/Chromium"
+alias chrhe="chrome --headless --disable-gpu --screenshot --disk-cache-dir=/tmp --user-data-dir=/tmp --crash-dumps-dir=/tmp https://www.google.com"
+# }}}
+
 # HomeBrew {{{
   alias bri='brew install'
   alias brui='brew uninstall'
@@ -71,6 +78,7 @@
   alias gme='peco_select_branch_except_current  | xargs -t git merge --no-ff --edit'
   alias gmesq='peco_select_branch_except_current  | xargs -t git merge --squash'
   alias gmeabo='git merge --abort'
+  alias gpr='peco_select_branch_except_current | xargs -t gh pr create -w -B'
 
 # Showing Data
   alias gg='git grep'

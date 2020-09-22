@@ -7,12 +7,13 @@ augroup END
 if &compatible
   set nocompatible
 endif
-set runtimepath+=/Users/shunya/.cache/dein/repos/github.com/Shougo/dein.vim
+set runtimepath+=/Users/shunya/.config/nvim/dein/repos/github.com/Shougo/dein.vim
 let s:dein_dir = expand('~/.config/nvim/dein')
 let s:toml_dir = expand('~/.config/nvim/toml')
 if dein#load_state(s:dein_dir)
   call dein#begin(s:dein_dir)
   call dein#recache_runtimepath()
+
   " Load TOML
   let s:toml = s:toml_dir . '/dein.toml'
   let s:lazy_toml = s:toml_dir . '/dein_lazy.toml'
@@ -64,7 +65,6 @@ let g:python_host_prog = $HOME . '/.pyenv/versions/neovim2/bin/python'
 let g:python3_host_prog = $HOME . '/.pyenv/versions/neovim3/bin/python'
 let g:ruby_host_prog = $HOME . '/.rbenv/versions/2.6.3/bin/neovim-ruby-host'
 let g:node_host_prog = $HOME . '/.nodebrew/node/v12.16.0/lib/node_modules/neovim/bin/cli.js'
-" autocmd VimEnter * execute 'NERDTree'
 
 nmap <C-b> :NERDTreeToggle<CR>
 nmap <F8> :TagbarToggle<CR>
