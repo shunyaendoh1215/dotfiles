@@ -6,6 +6,9 @@ repo = 'cespare/vim-toml'
 repo = 'Shougo/dein.vim'
 
 [[plugins]]
+repo = 'preservim/nerdtree'
+
+[[plugins]]
 repo = 'tpope/vim-endwise'
 
 [[plugins]]
@@ -44,9 +47,6 @@ repo = 'ntpeters/vim-better-whitespace'
 
 [[plugins]]
 repo = 'Yggdroot/indentLine'
-
-[[plugins]]
-repo = 'preservim/nerdtree'
 
 [[plugins]]
 repo = 'majutsushi/tagbar'
@@ -105,6 +105,8 @@ repo = 'honza/vim-snippets'
 
 [[plugins]]
 build = './install.sh nightly'
+if = '''executable('node') && executable('yarn')'''
+merged = '0'
 repo = 'neoclide/coc.nvim'
 
 [[plugins]]
