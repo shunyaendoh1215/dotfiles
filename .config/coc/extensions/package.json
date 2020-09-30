@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "coc-flutter": ">=1.7.0",
-    "coc-json": ">=1.2.6",
-    "coc-phpls": ">=2.1.10",
-    "coc-ultisnips": ">=1.2.3"
-  }
-}
