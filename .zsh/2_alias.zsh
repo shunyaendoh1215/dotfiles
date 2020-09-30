@@ -123,3 +123,6 @@
   alias zz='fasd_cd -d -i' # cd with interactive selection
 # }}}
 
+# Docker {{{
+  alias d-c='docker-compose'
+# }}}
