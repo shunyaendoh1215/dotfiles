@@ -1,3 +1,5 @@
 .DS_Store
 .config/nvim/dein
 .config/coc
+.comfig/configstore
+.vim
