@@ -132,5 +132,14 @@ alias chrhe="chrome --headless --disable-gpu --screenshot --disk-cache-dir=/tmp 
 # }}}
 
 # Docker {{{
-  alias d-c='docker-compose'
+  alias dco='docker-compose'
+# }}}
+
+# Laravel {{{
+  alias art='php artisan'
+  alias artm='php artisan make'
+# }}}
+
+# Marks {{{
+  alias mi='marks init -d'
 # }}}

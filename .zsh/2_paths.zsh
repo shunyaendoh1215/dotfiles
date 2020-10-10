@@ -1,5 +1,20 @@
 # PATHs
 
+# bash
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# neovim
+export XDG_CONFIG_HOME="$HOME/.config"
+
+# docker
+export DOCKER_CONTENT_TRUST=1
+
+# gh
+export VISUAL='nvim'
+
+# dotfiles
+export DOTFILES_PATH="$HOME/dotfiles"
+
 # nodebrew
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
