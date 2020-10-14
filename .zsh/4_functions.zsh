@@ -16,8 +16,8 @@ function git.tomain() {
 }
 
 function git.tosub() {
-  git config --global user.name "shunyaendoh1215"
-  git config --global user.email "shunyaendoh.1215@gmail.com"
+  git config --global user.name "zat2a"
+  git config --global user.email "zat2a.1976@gmail.com"
 }
 
 function zle-line-init zle-keymap-select {

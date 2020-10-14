@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@vue/cli": "^4.2.2",
+    "@vue/cli": "^4.5.7",
     "create-vuepress": "^0.1.0"
   }
 }
