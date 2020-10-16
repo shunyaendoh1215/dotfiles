@@ -1,6 +1,6 @@
 [user]
 	name = shunyaendoh1215
-	email = shunyaendoh.1215@gmail.com
+	email = shunyaendoh.bz@gmail.com
 [core]
 	excludesfile = /Users/shunya/.gitignore_global
 	editor = nvim
@@ -24,3 +24,5 @@
   log = diff-highlight | less
   show = diff-highlight | less
   diff = diff-highlight | less
+[pull]
+	rebase = true

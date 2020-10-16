@@ -11,8 +11,8 @@ function mkcd() {
 }
 
 function git.tomain() {
-  git config --global user.name "shunyaendoh"
-  git config --global user.email "shunya.endoh@gmail.com"
+  git config --global user.name "shunyaendoh1215"
+  git config --global user.email "shunyaendoh.bz@gmail.com"
 }
 
 function git.tosub() {

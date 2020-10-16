@@ -46,6 +46,7 @@ alias chrhe="chrome --headless --disable-gpu --screenshot --disk-cache-dir=/tmp 
   alias ls='exa'
   alias rm='trash'
   alias Rm='rm -rf'
+  alias df='cd && cd dotfiles'
 # }}}
 
 # Git Alias {{{
