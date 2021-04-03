@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='~/dotfiles'
+let g:netrw_dirhist_3='~/dotfiles/.git'
+let g:netrw_dirhist_2='~/dotfiles'
+let g:netrw_dirhist_1='/Users'
+let g:netrw_dirhist_0='~'
+let g:netrw_dirhist_9='~/dotfiles'
+let g:netrw_dirhist_8='~/dotfiles/.config/nvim/toml'
+let g:netrw_dirhist_7='~/dotfiles/.config/nvim'
+let g:netrw_dirhist_6='~/dotfiles/.config/nvim/dein'
+let g:netrw_dirhist_5='~/dotfiles/.config/nvim'
