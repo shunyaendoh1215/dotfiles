@@ -18,6 +18,8 @@ export DOTFILES_PATH="$HOME/dotfiles"
 # nodebrew
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
+export PATH=/opt/local/bin:$PATH
+
 # python
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
@@ -39,10 +41,14 @@ export PATH="~/.rbenv/shims:/usr/local/bin:$PATH"
 eval "$(rbenv init -)"
 
 # Flutter
-export PATH=$PATH:~/flutter/flutter/bin
+# export PATH=$PATH:~/flutter/flutter/bin
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+export PATH="$PATH":"$HOME/fvm/default/bin"
+# export PATH="$PATH":"$HOME/flutter/flutter/.pub-cache/bin"
+
 
 # Android Studio
-export ANDROID_HOME=/Users/shunya/Library/Android/sdk
+export ANDROID_HOME=~/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/platform-tools:$ANDROID_HOME/emulator
 
 # go
@@ -53,3 +59,23 @@ export PATH=$PATH:$GOPATH/bin
 
 # geth
 export PATH="$HOME/geth:$PATH"
+
+# java
+export PATH="$HOME/.jenv/bin:$PATH"
+# eval "$(jenv init -)"
+export JAVA_HOME=$(/usr/libexec/java_home -v 11)
+
+# deno
+export DENO_INSTALL="~/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+export PATH="/Users/esh2n/.deno/bin:$PATH"
+
+# rust
+export PATH="$HOME/.cargo/bin:$PATH"
+export LIBRARY_PATH="$LIBRARY_PATH:/usr/local/lib"
+
+# prettier
+export PATH=$PATH:./node_modules/.bin
+
+# elm-format
+export PATH=$HOME:~/elm:$PATH

@@ -83,8 +83,8 @@ alias chrhe="chrome --headless --disable-gpu --screenshot --disk-cache-dir=/tmp 
 
 # Showing Data
   alias gg='git grep'
-  alias gl='git log --graph --decorate --oneline'
-  alias gt="git log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(red)%h%C(r) —— %C(bold blue)%an%C(r): %C(white)%s%C(r) %C(dim white) %C(bold green)(%ar)%C(r) %C(bold yellow)%d%C(r)' --all"
+  alias glo="peco_select_branch_all | xargs -t -I {} git log {}.. --graph --abbrev-commit --decorate --date=relative --format=format:'%C(red)%h%C(r) —— %C(bold blue)%an%C(r): %C(white)%s%C(r) %C(dim white) %C(bold green)(%ar)%C(r) %C(bold yellow)%d%C(r)'"
+  alias gtr="git log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(red)%h%C(r) —— %C(bold blue)%an%C(r): %C(white)%s%C(r) %C(dim white) %C(bold green)(%ar)%C(r) %C(bold yellow)%d%C(r)' --all"
   alias gs='git status'
 
 # Remote
@@ -94,16 +94,25 @@ alias chrhe="chrome --headless --disable-gpu --screenshot --disk-cache-dir=/tmp 
   alias grr='git remote remove'
 
 # Rebase
-  alias gr='git rebase'
+  alias greb='git rebase'
   # edit commit history
-  alias gr1='git rebase -i HEAD~1'
-  alias gr2='git rebase -i HEAD~2'
-  alias gr3='git rebase -i HEAD~3'
-  alias gr4='git rebase -i HEAD~4'
-  alias gr5='git rebase -i HEAD~5'
+  alias greb1='git rebase -i HEAD~1'
+  alias greb2='git rebase -i HEAD~2'
+  alias greb3='git rebase -i HEAD~3'
+  alias greb4='git rebase -i HEAD~4'
+  alias greb5='git rebase -i HEAD~5'
+
+# Reset
+  alias grese='git reset'
+  # remove commit
+  alias gres1='git reset --hard HEAD~1'
+  alias gres2='git reset --hard HEAD~2'
+  alias gres3='git reset --hard HEAD~3'
+  alias gres4='git reset --hard HEAD~4'
+  alias gres5='git reset --hard HEAD~5'
 
 # Restore
-  alias gre='git restore'
+  alias grest='git restore'
 
 # Stash
   alias gst='git stash'
@@ -133,8 +142,14 @@ alias chrhe="chrome --headless --disable-gpu --screenshot --disk-cache-dir=/tmp 
 # }}}
 
 # Docker {{{
+  alias d='docker'
   alias dco='docker-compose'
   alias dps='docker ps'
+  alias dau='export DOCKER_CONTENT_TRUST=0'
+# }}}
+
+# Kubernetes {{{
+  alias kube='kubectl'
 # }}}
 
 # Laravel {{{
@@ -142,6 +157,44 @@ alias chrhe="chrome --headless --disable-gpu --screenshot --disk-cache-dir=/tmp 
   alias artm='php artisan make'
 # }}}
 
+# Flutter {{{
+  alias flcre='flutter create --org ninja.shunya --with-driver-test'
+# }}}
+
 # Marks {{{
   alias mi='marks init -d'
 # }}}
+
+# Linter {{{
+  alias lintinit='yarn add prettier@2.1.1 eslint@7.8.1 eslint-config-prettier@6.11.0 eslint-plugin-prettier@3.1.4 -D'
+# }}}
+
+# PostgreSQL {{
+  alias pg='pg_ctl'
+  alias pgsta='pg_ctl -D /usr/local/var/postgres start'
+  alias pgsto='pg_ctl -D /usr/local/var/postgres stop'
+# }}
+
+# Julia {{
+alias julia='/Applications/Julia-1.5.app/Contents/Resources/julia/bin/julia'
+# }}
+
+alias date='gdate'
+
+# alias code='code-insiders'
+alias code='code'
+
+alias brew='arch -x86_64 /usr/local/bin/brew'
+alias x64='exec arch -x86_64 "$SHELL"'
+alias a64='exec arch -arm64e "$SHELL"'
+
+# Rust {{
+alias cg='cargo'
+alias cgr='cargo run'
+# }}
+
+# Deno {{
+alias dpc='deployctl'
+alias de='deno'
+alias den='denon'
+# }}

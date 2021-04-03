@@ -3443,7 +3443,7 @@ if [[ -n ${ZSH_VERSION-} ]] &&
    [[ -z ${GIT_SOURCING_ZSH_COMPLETION-} ]]; then
 	echo "WARNING: this script is deprecated, please see git-completion.zsh" 1>&2
 
-	autoload -U +X compinit && compinit
+	# autoload -U +X compinit && compinit
 
 	__gitcomp ()
 	{

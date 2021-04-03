@@ -5,4 +5,4 @@ eval "$(fasd --init auto)"
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-source ~/code/golang/src/github.com/shunyaendoh1215/dev/scraper/.scraper.sh
+# source ~/code/golang/src/github.com/esh2n/dev/scraper/.scraper.sh

@@ -1,8 +1,8 @@
 [user]
-	name = shunyaendoh1215
+	name = esh2n
 	email = shunyaendoh.bz@gmail.com
 [core]
-	excludesfile = /Users/shunya/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	editor = nvim
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
@@ -15,14 +15,15 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-[alias]
 [commit]
   template = ~/.gitmessage
 [ghq]
-  root = /Users/shunya/code/golang/src
+  root = ~/src
 [pager]
   log = diff-highlight | less
   show = diff-highlight | less
   diff = diff-highlight | less
 [pull]
 	rebase = true
+[init]
+	defaultBranch = main
