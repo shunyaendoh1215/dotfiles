@@ -1,0 +1,182 @@
+{
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "workbench.colorTheme": "Monokai Pro",
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.confirmDelete": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "search.showLineNumbers": true,
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.fontSize": 12,
+  "debug.console.fontSize": 12,
+  "markdown.preview.fontSize": 12,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  // dart
+  "[dart]": {
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "dart.previewLsp": true,
+  "dart.openDevTools": "flutter",
+  "dart.flutterSdkPaths": [
+    ".fvm/flutter_sdk"
+  ],
+  // elm
+  "[elm]": {
+    "editor.formatOnSave": true
+  },
+  "elmLS.elmPath": "/usr/local/bin/elm",
+  // Js, Ts
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": [
+      "source.organizeImports",
+      "source.fixAll.eslint"
+    ]
+  },
+  "[typescript, tsx]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": [
+      "source.organizeImports",
+      "source.fixAll.eslint"
+    ]
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": [
+      "source.organizeImports",
+      "source.fixAll.eslint"
+    ]
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.semi": false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue",
+    "react",
+    "html",
+    "typescript",
+    "typescriptreact"
+  ],
+  // Rust
+  "[rust]": {},
+  "rust-client.rustupPath": "~/.cargo/bin/rustup",
+  "rust-client.engine": "rust-analyzer",
+  // Go
+  "go.formatTool": "goimports",
+  // Julia
+  "[julia]": {},
+  "julia.enableTelemetry": true,
+  // Python
+  "[python]": {},
+  "python.pythonPath": "~/opt/anaconda3/envs/pythonenv",
+  // Utility
+  "git.autofetch": true,
+  "files.autoSave": "onWindowChange",
+  "files.trimTrailingWhitespace": true,
+  "oneDarkPro.vivid": true,
+  "better-comments.multilineComments": true,
+  "better-comments.highlightPlainText": false,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    }
+  ],
+  "cSpell.userWords": [
+    "Avenir",
+    "Beego",
+    "FLOCSS",
+    "Kubernetes",
+    "OPGG",
+    "Padrino",
+    "browserslist",
+    "deno",
+    "esbuild",
+    "firestore",
+    "fontawesome",
+    "fuga",
+    "fugafuga",
+    "gmail",
+    "grpc",
+    "hoge",
+    "hogehoge",
+    "laravel",
+    "networkidle",
+    "noopener",
+    "noreferrer",
+    "postgres",
+    "progressbar",
+    "repo's",
+    "scrollbar",
+    "scrollpath",
+    "shunyaendoh",
+    "signin",
+    "signout",
+    "signup",
+    "storyshots",
+    "tailwindcss",
+    "vuex",
+    "wasm",
+    "winrate",
+    "winrates"
+  ],
+  "explorer.confirmDragAndDrop": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.editor.tabSizing": "shrink",
+  "editor.linkedEditing": true,
+  "http.proxyAuthorization": null,
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "tabnine.experimentalAutoImports": true,
+  "editor.cursorStyle": "block-outline",
+  "workbench.sideBar.location": "right",
+}
