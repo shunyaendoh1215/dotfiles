@@ -198,3 +198,7 @@ alias dpc='deployctl'
 alias de='deno'
 alias den='denon'
 # }}
+
+# GCP {{
+alias gsu='gsutil'
+# }}

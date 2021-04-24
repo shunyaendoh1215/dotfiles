@@ -1,6 +1,6 @@
 [user]
-	name = esh2n
-	email = shunyaendoh.bz@gmail.com
+	name = Shunya Endo
+	email = endo@gmail.com
 [core]
 	excludesfile = ~/.gitignore_global
 	editor = nvim

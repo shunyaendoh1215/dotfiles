@@ -1,0 +1,30 @@
+pane	2	1	:esh2n	1	:*	1	:/Users/esh2n	1	zsh	:
+pane	3	1	:Cultya	1	:*	1	:/Users/esh2n/src/github.com/AtGame-Inc/Cultya	1	zsh	:
+pane	4	1	:esh2n	1	:*	1	:/Users/esh2n	1	zsh	:
+pane	5	1	:esh2n	1	:*	1	:/Users/esh2n	1	zsh	:
+pane	DEFAULT	1	:delete_unnecesarry_backup	0	:-	1	:/Users/esh2n	0	zsh	:
+pane	DEFAULT	1	:delete_unnecesarry_backup	0	:-	2	:/Users/esh2n/google-cloud-sdk/.install/.backup	0	zsh	:
+pane	DEFAULT	1	:delete_unnecesarry_backup	0	:-	3	:/Users/esh2n/src/github.com/AtGame-Inc/Cultya/functions	1	zsh	:
+pane	DEFAULT	2	:master	0	:#	1	:/Users/esh2n/src/github.com/kazusato/k8sbook	0	zsh	:
+pane	DEFAULT	2	:master	0	:#	2	:/Users/esh2n	0	zsh	:
+pane	DEFAULT	2	:master	0	:#	3	:/Users/esh2n	1	zsh	:
+pane	DEFAULT	3	:master	0	:#	1	:/Users/esh2n/src/github.com/bradtraversy/50projects50days	1	zsh	:
+pane	DEFAULT	3	:master	0	:#	2	:/Users/esh2n/src/github.com/esh2n/tips.gg/frontend	0	zsh	:
+pane	DEFAULT	4	:Xlayout	0	:#	1	:/Users/esh2n/src/github.com/esh2n/Xrust/playground	0	zsh	:
+pane	DEFAULT	4	:Xlayout	0	:#	2	:/Users/esh2n/dotfiles	0	zsh	:
+pane	DEFAULT	4	:Xlayout	0	:#	3	:/Users/esh2n/src/github.com/esh2n/XmarkUp/Xlayout/Xlayout	0	zsh	:
+pane	DEFAULT	4	:Xlayout	0	:#	4	:/Users/esh2n/src/github.com/forcia/rustbook	1	zsh	:
+pane	DEFAULT	5	:master	1	:*	1	:/Users/esh2n/src/github.com/esh2n/tips.gg	0	zsh	:
+pane	DEFAULT	5	:master	1	:*	2	:/Users/esh2n/src/github.com/esh2n/Xdeno/XdenoDeploy	0	zsh	:
+pane	DEFAULT	5	:master	1	:*	3	:/Users/esh2n	0	zsh	:
+pane	DEFAULT	5	:master	1	:*	4	:/Users/esh2n/dotfiles	1	zsh	:
+window	2	1	1	:*	c01e,283x54,0,0,1
+window	3	1	1	:*	c01f,283x54,0,0,2
+window	4	1	1	:*	c020,283x54,0,0,3
+window	5	1	1	:*	e03f,283x54,0,0,20
+window	DEFAULT	1	0	:-	79ee,283x54,0,0{143x54,0,0[143x27,0,0,4,143x26,0,28,5],139x54,144,0,6}
+window	DEFAULT	2	0	:#	b0e4,283x54,0,0[283x27,0,0{142x27,0,0,7,140x27,143,0,8},283x26,0,28,9]
+window	DEFAULT	3	0	:#	ea0c,283x54,0,0{142x54,0,0,10,140x54,143,0,11}
+window	DEFAULT	4	0	:#	3178,283x54,0,0{141x54,0,0[141x27,0,0,12,141x26,0,28,13],141x54,142,0[141x27,142,0,14,141x26,142,28,15]}
+window	DEFAULT	5	1	:*	c3bb,283x54,0,0{142x54,0,0[142x27,0,0,16,142x26,0,28,17],140x54,143,0[140x27,143,0,18,140x26,143,28,19]}
+state	DEFAULT	2
