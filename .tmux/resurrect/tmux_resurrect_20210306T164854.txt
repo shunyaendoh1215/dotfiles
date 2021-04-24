@@ -1,8 +1,0 @@
-pane	DEFAULT	1	:Cultya	1	:*	1	:/Users/esh2n/src/github.com/fan-ADN/nendSDK-Flutter/example	0	zsh	:
-pane	DEFAULT	1	:Cultya	1	:*	2	:/Users/esh2n/src/github.com/AtGame-Inc/Cultya	1	zsh	:
-pane	DEFAULT	2	:master	0	:-	1	:/Users/esh2n/src/github.com/esh2n	0	zsh	:
-pane	DEFAULT	2	:master	0	:-	2	:/Users/esh2n	0	zsh	:
-pane	DEFAULT	2	:master	0	:-	3	:/Users/esh2n/src/github.com/kazusato/k8sbook	1	zsh	:
-window	DEFAULT	1	1	:*	b3cf,283x54,0,0{142x54,0,0,1,140x54,143,0,2}
-window	DEFAULT	2	0	:-	2733,283x54,0,0{141x54,0,0[141x27,0,0,3,141x26,0,28,4],141x54,142,0,5}
-state	DEFAULT	

@@ -1,7 +1,0 @@
-pane	0	1	:refactor_admob_units	0	:-	1	:/Users/esh2n/src/github.com/AtGame-Inc/Cultya	1	zsh	:
-pane	0	1	:refactor_admob_units	0	:-	2	:/Users/esh2n	0	zsh	:
-pane	0	2	:elm-format	1	:*	1	:/Users/esh2n/src/github.com/esh2n/Xelm/Xtodo_app	0	zsh	:
-pane	0	2	:elm-format	1	:*	2	:/Users/esh2n/elm/elm-format	1	zsh	:
-window	0	1	0	:-	21b5,141x51,0,0{71x51,0,0,0,69x51,72,0,1}
-window	0	2	1	:*	c179,141x51,0,0[141x25,0,0,5,141x25,0,26,6]
-state	0	

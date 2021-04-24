@@ -36,12 +36,6 @@ if [ -d $ZSHHOME -a -r $ZSHHOME -a -x $ZSHHOME ]; then
     done
 fi
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '~/google-cloud-sdk/path.zsh.inc' ]; then . '~/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '~/google-cloud-sdk/completion.zsh.inc' ]; then . '~/google-cloud-sdk/completion.zsh.inc'; fi
-
 # if (which zprof > /dev/null) ;then
 #     zprof | less
 # fi
@@ -65,3 +59,9 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/esh2n/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/esh2n/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/esh2n/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/esh2n/google-cloud-sdk/completion.zsh.inc'; fi
