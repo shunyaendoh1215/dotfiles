@@ -5,7 +5,6 @@ tap "github/gh"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
-tap "khanhas/tap"
 tap "rcmdnk/file"
 tap "rcmdnk/rcmdnkpac"
 tap "weaveworks/tap"
@@ -14,7 +13,6 @@ brew "cabal-install"
 brew "deno"
 brew "gettext"
 brew "git"
-brew "go"
 brew "haskell-stack"
 brew "k9s"
 brew "kubernetes-cli", link: false
@@ -22,17 +20,7 @@ brew "less"
 brew "mysql"
 brew "nvm"
 brew "sccache"
-brew "spotify-tui"
 brew "tig"
 brew "dart-lang/dart/dart"
-brew "khanhas/tap/spicetify-cli"
 brew "weaveworks/tap/eksctl"
 cask "keybase"
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Kindle", id: 405399194
-mas "Magnet", id: 441258766
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Xcode", id: 497799835
