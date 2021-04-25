@@ -65,3 +65,5 @@ if [ -f '/Users/esh2n/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/esh2n/goo
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/esh2n/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/esh2n/google-cloud-sdk/completion.zsh.inc'; fi
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

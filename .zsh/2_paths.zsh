@@ -25,10 +25,10 @@ export NVM_DIR="$HOME/.nvm"
 export PATH=/opt/local/bin:$PATH
 
 # python
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+# export PYENV_ROOT="$HOME/.pyenv"
+# export PATH="$PYENV_ROOT/bin:$PATH"
+# eval "$(pyenv init -)"
+# eval "$(pyenv virtualenv-init -)"
 
 # PHP@7.2
 export PATH="/usr/local/opt/php@7.2/bin:$PATH"
@@ -65,9 +65,11 @@ export PATH=$PATH:$GOPATH/bin
 export PATH="$HOME/geth:$PATH"
 
 # java
-export PATH="$HOME/.jenv/bin:$PATH"
+# export PATH="$HOME/.jenv/bin:$PATH"
 # eval "$(jenv init -)"
-export JAVA_HOME=$(/usr/libexec/java_home -v 11)
+# export JAVA_HOME=$(/usr/libexec/java_home -v 11)
+export JAVA_HOME=`/usr/libexec/java_home -v "11"`
+PATH=${JAVA_HOME}/bin:${PATH}
 
 # deno
 export DENO_INSTALL="~/.deno"
