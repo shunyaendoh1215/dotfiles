@@ -1,0 +1,25 @@
+pane	2	1	:esh2n	1	:*	1	:/Users/esh2n	1	zsh	:
+pane	DEFAULT	1	:master	0	:-	1	:/Users/esh2n/dotfiles	0	zsh	:-zsh
+xargs -t git push origin
+pane	DEFAULT	1	:master	0	:-	2	:/Users/esh2n/src/github.com/esh2n/scraperbot-ts/src/util	1	zsh	:
+pane	DEFAULT	1	:master	0	:-	3	:/Users/esh2n/src/bitbucket.org/newpia-t/app-web-pre	0	zsh	:
+pane	DEFAULT	2	:master	0	:	1	:/Users/esh2n/src/github.com/kazusato/k8sbook	0	zsh	:
+pane	DEFAULT	2	:master	0	:	2	:/Users/esh2n	0	zsh	:
+pane	DEFAULT	2	:master	0	:	3	:/Users/esh2n	1	zsh	:
+pane	DEFAULT	3	:Cultya	1	:*	1	:/Users/esh2n/src/github.com/AtGame-Inc/Cultya	1	zsh	:
+pane	DEFAULT	3	:Cultya	1	:*	2	:/Users/esh2n/src/github.com/esh2n/tips.gg/frontend	0	zsh	:
+pane	DEFAULT	4	:Xlayout	0	:	1	:/Users/esh2n/src/github.com/esh2n/Xrust/playground	0	zsh	:
+pane	DEFAULT	4	:Xlayout	0	:	2	:/Users/esh2n/dotfiles	0	zsh	:
+pane	DEFAULT	4	:Xlayout	0	:	3	:/Users/esh2n/src/github.com/esh2n/XmarkUp/Xlayout/Xlayout	0	zsh	:
+pane	DEFAULT	4	:Xlayout	0	:	4	:/Users/esh2n/src/github.com/forcia/rustbook	1	zsh	:
+pane	DEFAULT	5	:esh2n	0	:	1	:/Users/esh2n/src/github.com/esh2n/tips.gg	1	zsh	:
+pane	DEFAULT	5	:esh2n	0	:	2	:/Users/esh2n/src/github.com/esh2n/Xdeno/XdenoDeploy	0	zsh	:
+pane	DEFAULT	5	:esh2n	0	:	3	:/Users/esh2n	0	zsh	:
+pane	DEFAULT	5	:esh2n	0	:	4	:/Users/esh2n/dotfiles	0	zsh	:
+window	2	1	1	:*	6046,283x54,0,0,17
+window	DEFAULT	1	0	:-	503d,283x54,0,0{142x54,0,0[142x27,0,0,1,142x26,0,28,2],140x54,143,0,3}
+window	DEFAULT	2	0	:	1ffa,283x54,0,0[283x27,0,0{141x27,0,0,4,141x27,142,0,5},283x26,0,28,6]
+window	DEFAULT	3	1	:*	ab68,283x54,0,0{141x54,0,0,7,141x54,142,0,8}
+window	DEFAULT	4	0	:	e1a2,283x54,0,0{140x54,0,0[140x27,0,0,9,140x26,0,28,10],142x54,141,0[142x27,141,0,11,142x26,141,28,12]}
+window	DEFAULT	5	0	:	117a,283x54,0,0{141x54,0,0[141x27,0,0,13,141x26,0,28,14],141x54,142,0[141x27,142,0,15,141x26,142,28,16]}
+state	DEFAULT	2
