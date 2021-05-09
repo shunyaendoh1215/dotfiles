@@ -10,14 +10,30 @@ function mkcd() {
   fi
 }
 
-function git.tomain() {
-  git config --global user.name "Shunya Endo"
-  git config --global user.email "endo@gmail.com"
+function gtog() {
+  if [ $1 = "zat2a" ]; then
+    git config --global user.name "zat2a"
+    git config --global user.email "zat2a.1976@gmail.com"
+  elif [ $1 = "pivot" ]; then
+    git config --global user.name "Shunya Endo"
+    git config --global user.email "shunyaendoh.bz@gmail.com"
+  elif [ $1 = "main" ]; then
+    git config --global user.name "esh2n"
+    git config --global user.email "shunyaendoh.bz@gmail.com"
+  fi
 }
 
-function git.tosub() {
-  git config --global user.name "zat2a"
-  git config --global user.email "zat2a.1976@gmail.com"
+function gtol() {
+  if [ $1 = "zat2a" ]; then
+    git config --local user.name "zat2a"
+    git config --local user.email "zat2a.1976@gmail.com"
+  elif [ $1 = "pivot" ]; then
+    git config --local user.name "Shunya Endo"
+    git config --local user.email "shunyaendoh.bz@gmail.com"
+  elif [ $1 = "main" ]; then
+    git config --local user.name "esh2n"
+    git config --local user.email "shunyaendoh.bz@gmail.com"
+  fi
 }
 
 function zle-line-init zle-keymap-select {
