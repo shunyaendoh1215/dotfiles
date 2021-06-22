@@ -62,17 +62,20 @@ alias chrhe="chrome --headless --disable-gpu --screenshot --disk-cache-dir=/tmp 
   alias gc='git commit'
   alias gpul='git pull'
   alias gpus='git push'
+  alias gchp='git_cherry_pick'
 
 # Branch
   alias gb='git branch'
   alias gsw='git switch'
   alias gchb='git checkout -b'
+  alias gpar='git_parent'
   # Change Branch W/ Peco
   alias gch='peco_select_branch_except_current | xargs -t git checkout'
   # Delete Branch W/ Peco
   alias gbd='peco_select_local_branch_except_current | xargs -t git branch -D'
   # Push Branch W/ Peco
   alias gpuso='peco_select_branch_all | xargs -t git push origin'
+  alias gpo='git_push_current_branch'
   # Pull Branch W/ Peco
   alias gpulo='peco_select_branch_all | xargs -t git pull origin'
   # Merge Branch W/ Peco
@@ -86,6 +89,7 @@ alias chrhe="chrome --headless --disable-gpu --screenshot --disk-cache-dir=/tmp 
   alias glo="peco_select_branch_all | xargs -t -I {} git log {}.. --graph --abbrev-commit --decorate --date=relative --format=format:'%C(red)%h%C(r) —— %C(bold blue)%an%C(r): %C(white)%s%C(r) %C(dim white) %C(bold green)(%ar)%C(r) %C(bold yellow)%d%C(r)'"
   alias gtr="git log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(red)%h%C(r) —— %C(bold blue)%an%C(r): %C(white)%s%C(r) %C(dim white) %C(bold green)(%ar)%C(r) %C(bold yellow)%d%C(r)' --all"
   alias gs='git status'
+  alias gbis='git_bisect'
 
 # Remote
   alias grao='git remote add origin'
@@ -95,6 +99,7 @@ alias chrhe="chrome --headless --disable-gpu --screenshot --disk-cache-dir=/tmp 
 
 # Rebase
   alias greb='git rebase'
+  alias grebi='git_rebase_interactive'
   # edit commit history
   alias greb1='git rebase -i HEAD~1'
   alias greb2='git rebase -i HEAD~2'

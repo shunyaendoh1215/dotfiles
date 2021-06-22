@@ -180,3 +180,142 @@ nerd_fonts() {
 #   gke-activate "${name}" "${zone_or_region}"
 # }
 # compdef kx-complete kx
+
+
+# 親ブランチ表示
+function git_parent() {
+  git show-branch | grep '*' | grep -v "$(git rev-parse --abbrev-ref HEAD)" | head -1 | awk -F'[]~^[]' '{print $2}'
+}
+
+# git bisect対話
+function git_bisect() {
+	while getopts ":sbgr" opt; do
+		case $opt in
+			b) git bisect bad ;;
+			g) git bisect good ;;
+			r) git bisect reset ;;
+			s)
+				local bad="$(git log --oneline | peco | cut -d ' ' -f 1)"
+				local good="$(git log --oneline | peco | cut -d ' ' -f 1)"
+				git bisect start $bad $good
+				;;
+			?)
+				echo "Unknown option selected."
+				return 1
+				;;
+		esac
+	done
+}
+
+function git_rebase_interactive() {
+	local start="$(git log --oneline $OPTARG | peco | cut -d ' ' -f 1)"
+	git rebase -i $start
+}
+
+
+function git_cherry_pick() {
+	while getopts ":s:r:" opt; do
+		case $opt in
+			r)
+		  	local start="$(git log --oneline $OPTARG | peco | cut -d ' ' -f 1)"
+		   	local end="$(git log --oneline $OPTARG | peco | cut -d ' ' -f 1)"
+				git cherry-pick $start..$end
+				;;
+		    s)
+		  	local commit="$(git log --oneline $OPTARG | peco | cut -d ' ' -f 1)"
+				git cherry-pick $commit
+				;;
+			?)
+				echo "Unknown option selected."
+				return 1
+				;;
+		esac
+	done
+}
+
+function git_push_current_branch() {
+  local checkouted="$(g branch --show-current)"
+  echo -n "Really push to origin/${checkouted}?: [Y/n] "; read answer
+  case $answer in
+  	[yY] | [yY]es | YES )
+  	  git push origin $(g b --show-current);;
+  	* )
+  	  echo "No actions."
+  	  return 1;;
+  esac
+}
+
+alias gdi='_git_diff'
+function _git_diff() {
+	local selected_file="."
+	while getopts ":sf:" opt; do
+		case $opt in
+		  f) selected_file="$OPTARG"; break ;;
+		  s)
+		  	selected_file="$(git ls-files -m | peco)"
+		  	if [ -z $selected_file ]; then
+		  		echo "No selected for diff."
+		  		return 1
+		  	fi
+		  	echo "$selected_file" | pbcopy
+		  	break
+		  	;;
+		  ?)
+			echo "Unknown option selected."
+			return 1
+			;;
+		esac
+	done
+	git diff $selected_file
+}
+
+alias gai='_git_add'
+function _git_add() {
+	local selected_file=""
+	local options=()
+
+	while getopts ":spaf:" opt; do
+		case $opt in
+		  f) selected_file="$OPTARG" ; break ;;
+		  a) selected_file="." ; break ;;
+		  s)
+		  	selected_file="$(git status --porcelain -s | peco)"
+		  	if [ -z $selected_file ]; then
+		  		echo "No selected for add."
+		  		return 1
+		  	fi
+		  	break
+		  	;;
+		  p) options+=("-p") ;;
+		  ?)
+		       echo "Unknown option selected."
+			   return 1
+			   ;;
+		esac
+	done
+	git add $options[@] ${selected_file##* }
+}
+
+alias gresti='_git_restore'
+function _git_restore() {
+	local selected_file=""
+	while getopts ":saf:" opt; do
+		case $opt in
+		  f) selected_file="$OPTARG"; break ;;
+		  a) selected_file="."; break ;;
+		  s)
+		  	selected_file="$(git diff --name-only --diff-filter=M --staged | peco)"
+		  	if [ -z $selected_file ]; then
+		  		echo "No selected for restore."
+		  		return 1
+		  	fi
+		  	break
+		  	;;
+		  ?)
+				echo "Unknown option selected."
+				return 1
+				;;
+		esac
+	done
+	git restore --staged $selected_file
+}
