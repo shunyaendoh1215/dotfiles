@@ -1,58 +1,58 @@
-# <type(!)>(scope?): <desc>
-# ==== fix (a bug fix : patch) ====
-# 🔧 fix:
-# 🐛 bug:
-# 🤖 android:
-# 🍎 apple:
-# 🐧 linux:
-# 🔒 security:
-#
-# ==== chore (changes build process or libraries) ====
-# 👍 chore:
-# 🗑️ remove:
-# 🍉 add:
-# 📦 package:
-#
-# ==== feat (a new feature : minor) ====
-# ✨ feat:
-# ⚙️ logic:
-# 🎨 ui/ux:
-#
-# ==== docs (changes docs) ====
-# 📚 docs:
-#
-# ==== style (correct typo or format) ====
-# 🖍 style:
-#
-# ==== refactor (a code change that neither fixes a bug nor adds a feature) ====
-# ♻️ refactor:
-#
-# ==== perf (a code change that improves performance) ====
-# 🐎 perf:
-#
-# ==== test (adding missing or correcting existing tests) ====
-# 💚 test:
-#
-# ==== env (dev option) ====
-# 🎉 initial:
-# 🐳 docker:
-# 🔖 version:
-# 🔀 merge:
-# ⏪ revert:
-# 🚀 launch:
-#
-# ==== other ====
-# ⛔ temporary:
-# 🚧 in_progress:
-# 💩 deprecated:
-# 🔍 seo:
-#
-# ==== breaking change (major) ====
-# ⚠️ BREAKING CHANGE:
-
-# [body?]: details of subject
-#
-
-# [footer?]: details of BREAKING CHANGE or issue number
-#
-# https://www.conventionalcommits.org/ja/v1.0.0-beta.4/
+; #BacklogID｜Backlog タイトル｜対応内容
+; # | |
+; <type(!)>(scope?): <desc>
+; ==== fix (a bug fix : patch) ====
+; 🔧 fix:
+; 🐛 bug:
+; 🤖 android:
+; 🍎 apple:
+; 🐧 linux:
+; 🔒 security:
+;
+; ==== chore (changes build process or libraries) ====
+; 👍 chore:
+; 🗑️ remove:
+; 🍉 add:
+; 📦 package:
+;
+; ==== feat (a new feature : minor) ====
+; ✨ feat:
+; ⚙️ logic:
+; 🎨 ui/ux:
+;
+; ==== docs (changes docs) ====
+; 📚 docs:
+;
+; ==== style (correct typo or format) ====
+; 🖍 style:
+;
+; ==== refactor (a code change that neither fixes a bug nor adds a feature) ====
+; ♻️ refactor:
+;
+; ==== perf (a code change that improves performance) ====
+; 🐎 perf:
+;
+; ==== test (adding missing or correcting existing tests) ====
+; 💚 test:
+;
+; ==== env (dev option) ====
+; 🎉 initial:
+; 🐳 docker:
+; 🔖 version:
+; 🔀 merge:
+; ⏪ revert:
+; 🚀 launch:
+;
+; ==== other ====
+; ⛔ temporary:
+; 🚧 in_progress:
+; 💩 deprecated:
+; 🔍 seo:
+;
+; ==== breaking change (major) ====
+; ⚠️ BREAKING CHANGE:;
+; [body?]: details of subject
+;
+; [footer?]: details of BREAKING CHANGE or issue number
+;
+; https://www.conventionalcommits.org/ja/v1.0.0-beta.4/

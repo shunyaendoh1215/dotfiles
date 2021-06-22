@@ -47,7 +47,7 @@ eval "$(rbenv init -)"
 # Flutter
 # export PATH=$PATH:~/flutter/flutter/bin
 export PATH="$PATH":"$HOME/.pub-cache/bin"
-export PATH="$PATH":"$HOME/fvm/default/bin"
+# export PATH="$PATH":"$HOME/fvm/default/bin"
 # export PATH="$PATH":"$HOME/flutter/flutter/.pub-cache/bin"
 
 
@@ -68,7 +68,7 @@ export PATH="$HOME/geth:$PATH"
 # export PATH="$HOME/.jenv/bin:$PATH"
 # eval "$(jenv init -)"
 # export JAVA_HOME=$(/usr/libexec/java_home -v 11)
-export JAVA_HOME=`/usr/libexec/java_home -v "11"`
+export JAVA_HOME=`/usr/libexec/java_home -v "1.8"`
 PATH=${JAVA_HOME}/bin:${PATH}
 
 # deno
@@ -85,3 +85,6 @@ export PATH=$PATH:./node_modules/.bin
 
 # elm-format
 export PATH=$HOME:~/elm:$PATH
+
+# asdf
+. $(brew --prefix asdf)/asdf.sh
